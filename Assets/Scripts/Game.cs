@@ -52,7 +52,7 @@ public class Game : MonoBehaviour
                 var reader = new BinaryReader(File.Open(savePath, FileMode.Open))
                 ) {
             int count = reader.ReadInt32();
-            for (int i = 0; i < objects.Count; i++) {
+            for (int i = 0; i < count; i++) {
                 Vector3 p;
                 p.x = reader.ReadSingle();
                 p.y = reader.ReadSingle();
