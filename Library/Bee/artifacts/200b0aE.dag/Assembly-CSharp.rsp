@@ -356,6 +356,8 @@
 "Assets/Scripts/GameDataWriter.cs"
 "Assets/Scripts/PersistableObject.cs"
 "Assets/Scripts/PersistentStorage.cs"
+"Assets/Scripts/Shape.cs"
+"Assets/Scripts/ShapeFactory.cs"
 -langversion:9.0
 
 /deterministic
